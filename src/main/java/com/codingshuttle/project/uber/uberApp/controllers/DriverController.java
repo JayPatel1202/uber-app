@@ -24,8 +24,4 @@ public class DriverController {
 
         return ResponseEntity.ok(driverService.startRide(rideId , rideStartDto.getOtp() ));
     }
-
-
-
-
 }
